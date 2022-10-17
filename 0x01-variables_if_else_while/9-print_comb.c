@@ -2,7 +2,7 @@
 /**
  * main - program entry
  * Return:0
- **/
+ */
 int main(void)
 {
 	int num;
@@ -16,7 +16,7 @@ int main(void)
 		}
 		else
 		{
-			putchar(",");
+			putchar(',');
 			putchar(' ');
 		}
 	}
