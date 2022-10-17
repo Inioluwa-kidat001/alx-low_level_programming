@@ -3,7 +3,7 @@
 /**
  * main - program entry
  * Return:0
- **/
+ */
 int main(void)
 {
 	char i;
