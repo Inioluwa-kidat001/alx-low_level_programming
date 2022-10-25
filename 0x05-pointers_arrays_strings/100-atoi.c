@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _atio - converts a string to an int
+ * _atoi - converts a string to an int
  * @s: strng to be converted
  *
  * Return: value of converted string
  */
 
-int _atio(char *s)
+int _atoi(char *s)
 {
 	int sign = 1;
 	unsigned int num = 0;
