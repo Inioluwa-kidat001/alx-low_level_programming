@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * nain - entry point
+ * main - prints the number of arguments passed to it
  * @argc: argument count
- * @argv: argument vector
- * Return: success
+ * @argv: arguments vector
+ * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	(void)argv;
-	printf("%d\n", argc - 1);
 
-	exit(EXIT_SUCCESS);
+	printf("%d\n", argc - 1);
+	return (0);
 }
